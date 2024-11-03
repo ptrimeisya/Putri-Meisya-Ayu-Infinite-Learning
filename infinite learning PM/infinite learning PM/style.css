@@ -1,0 +1,119 @@
+/* Reset dasar untuk menghapus margin dan padding default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Gaya umum */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Gaya untuk navbar */
+.navbar {
+    background: #4CAF50; /* Warna hijau */
+    color: white;
+    padding: 50px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+}
+
+.nav-links {
+    list-style: none;
+    float: right;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ddd;
+}
+
+/* Gaya untuk section */
+.section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px; /* Atur ukuran gambar */
+    height: 150px; /* Pastikan proporsi gambar tetap */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    border: 2px solid #4CAF50; /* Border hijau di sekitar gambar */
+    margin-bottom: 20px;
+    
+}
+
+/* Gaya untuk pengalaman kerja */
+.experience {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Membuat elemen fleksibel agar responsif */
+}
+
+.job {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.job h3 {
+    color: #4CAF50; /* Warna hijau untuk judul pekerjaan */
+}
+
+/* Gaya untuk daftar keahlian */
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #4ce381;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Gaya untuk ikon kontak */
+.contact-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.contact-icons a {
+    margin: 0 15px;
+}
+
+.contact-icons img {
+    width: 40px; /* Ukuran ikon */
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+.contact-icons img:hover {
+    transform: scale(1.1); /* Efek zoom saat hover */
+}
